@@ -1,0 +1,1147 @@
+[
+  {
+    "name": "The Arborec",
+    "shortName": "arborec",
+    "commodities": 3,
+    "abilities" : [
+      {
+        "name": "Mitosis",
+        "text": "Your space docks cannot produc infantry. At the start of the status phase, place 1 infantry from your reinforcements on any planet you control."
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "Duha Menaimon",
+      "special": "After you activate this system, you may produce up to 5 units in this system.",
+      "abilities": [
+        "sustain damage"
+      ],
+      "cost": 8,
+      "combat": 7,
+      "burst": 2,
+      "move": 1,
+      "capacity": 5
+    },
+    "specialUnit": {
+      "name": "Letani Warrior I",
+      "type": "infantry",
+      "abilities": [
+        "production 1"
+      ],
+      "cost": 1,
+      "qty": 2,
+      "combat": 8
+    },
+    "startingTech": [
+      "Magen Defense Grid"
+    ],
+    "startingUnits": [
+      {
+        "type": "carrier",
+        "qty": 1
+      },
+      {
+        "type": "cruiser",
+        "qty": 1
+      },
+      {
+        "type": "fighter",
+        "qty": 2
+      },
+      {
+        "type": "infantry",
+        "qty": 4
+      },
+      {
+        "type": "space dock",
+        "qty": 1
+      },
+      {
+        "type": "pds",
+        "qty": 1
+      }
+    ],
+    "homeSystem": "Farruban System",
+    "population": 1,
+    "government": "Hivemind",
+    "leadership": "The Arborec",
+    "disposition": "Mysterious",
+    "tendencies": "Expansionist"
+  },
+  {
+  {
+    "name": "The Barony of Letnev",
+    "shortName": "letnev",
+    "commodities": 2,
+    "abilities" : [
+      {
+        "name": "Munistions Reserves",
+        "text": "At the start if each round of space combat, you may spend 2 trade goods; you may reroll any of your dice during that combat round."
+      },
+      {
+        "name": "Armada",
+        "text": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "Arc Secundus",
+      "special": "Other players' units lose PLANETARY SHIELD. At the start of each space combat round, repair this ship.",
+      "abilities": [
+        "sustain damage", "bombardment 5(x3)"
+      ],
+      "cost": 8,
+      "combat": 5,
+      "burst": 2,
+      "move": 1,
+      "capacity": 3
+    },
+    "startingTech": [
+      "antimass deflectors", "plasma scoring"
+    ],
+    "startingUnits": [
+      {
+        "type": "dreadnought",
+        "qty": 1
+      },
+      {
+        "type": "carrier",
+        "qty": 1
+      },
+      {
+        "type": "destroyer",
+        "qty": 1
+      },
+      {
+        "type": "fighter",
+        "qty": 1
+      },
+      {
+        "type": "infantry",
+        "qty": 3
+      },
+      {
+        "type": "space dock",
+        "qty": 1
+      }
+    ],
+    "homeSystem": "Braony Space",
+    "population": 10470000000,
+    "government": "Barony",
+    "leadership": "Daz Emmiciel Werqan III",
+    "disposition": "Disdainful",
+    "tendencies": "Military"
+  },
+  {
+  {
+    "name": "The Clan of Saar",
+    "shortName": "saar",
+    "commodities": 3,
+    "abilities" : [
+      {
+        "name": "scavenge",
+        "text": "After you gain control of a planet, gain 1 trade good."
+      },
+      {
+        "name": "nomadic",
+        "text": "You can score objectives even if you don't control the planets in your home system."
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "Son of Ragh",
+      "abilities": [
+        "sustain damage", "anti-fighter barrage 6(x4)"
+      ],
+      "cost": 8,
+      "combat": 5,
+      "burst": 2,
+      "move": 1,
+      "capacity": 3
+    },
+    "specialUnit": {
+      "name": "Floating Factory I",
+      "type": "space dock",
+      "special": "This unit is placed in a space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockaded, it is destroyed.",
+      "abilities": [
+        "production 5"
+      ],
+      "move": 1,
+      "capacity": 4
+    },
+    "startingTech": [
+      "antimass deflectors"
+    ],
+    "startingUnits": [
+      {
+        "type": "carrier",
+        "qty": 2
+      },
+      {
+        "type": "cruiser",
+        "qty": 1
+      },
+      {
+        "type": "fighter",
+        "qty": 2
+      },
+      {
+        "type": "infantry",
+        "qty": 4
+      },
+      {
+        "type": "space dock",
+        "qty": 1
+      }
+    ],
+    "homeSystem": "Jorun Asteroid Field",
+    "population": 1010000000,
+    "government": "Admirality",
+    "leadership": "Council of Captains",
+    "disposition": "Melancholy",
+    "tendencies": "Objective"
+  },
+  {
+  {
+    "name": "The Embers of Muaat",
+    "shortName": "muaat",
+    "commodities": 4,
+    "abilities" : [
+      {
+        "name": "star forge",
+        "text": "ACTION: Spend 1 token from your strategy pool to either place 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns."
+      },
+      {
+        "name": "gashlai physiology",
+        "text": "Your ships can move through supernovas."
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "The Inferno",
+      "special": "ACTION: Spend 1 token from your stratgy pool to place 1 cruiser in this unit's system.",
+      "abilities": [
+        "sustain damage"
+      ],
+      "cost": 8,
+      "combat": 5,
+      "burst": 2,
+      "move": 1,
+      "capacity": 6
+    },
+    "specialUnit": {
+      "name": "Prototype War Sun I",
+      "type": "war sun",
+      "special": "Other players' units in this system lose the PLANETARY SHIELD ability",
+      "abilities": [
+        "sustain damage", "bombardment 3(x3)"
+      ],
+      "cost": 12,
+      "combat": 3,
+      "burst": 3,
+      "move": 1,
+      "capacity": 6
+    },
+    "startingTech": [
+      "plasma scoring"
+    ],
+    "startingUnits": [
+      {
+        "type": "war sun",
+        "qty": 1
+      },
+      {
+        "type": "fighter",
+        "qty": 2
+      },
+      {
+        "type": "infantry",
+        "qty": 4
+      },
+      {
+        "type": "space dock",
+        "qty": 1
+      }
+    ],
+    "homeSystem": "Muaat System",
+    "population": 7390000000,
+    "government": "Tribunal",
+    "leadership": "Sushon Azh",
+    "disposition": "Grim",
+    "tendencies": "Military"
+  },
+  {
+  {
+    "name": "The Emirates of Hacan",
+    "shortName": "hacan",
+    "commodities": 6,
+    "abilities" : [
+      {
+        "name": "masters of trade",
+        "text": "You do not have to spend a command token to resolve the secondary ability of the \"Trade\" strategy card."
+      },
+      {
+        "name": "guild ships",
+        "text": "You can negotiate transactions with players who are not your neighbor."
+      },
+      {
+        "name": "arbiters",
+        "text": "When you are negotiating a transaction, action cards can be exchanged as part of that transaction."
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "Wrath of Kenara",
+      "special": "After you roll a die during a space combat in this system, you may spend 1 trade good to apply +1 to the result.",
+      "abilities": [
+        "sustain damage"
+      ],
+      "cost": 8,
+      "combat": 7,
+      "burst": 2,
+      "move": 1,
+      "capacity": 3
+    },
+    "startingTech": [
+      "antimass deflectors", "sarween tools"
+    ],
+    "startingUnits": [
+      {
+        "type": "carriers",
+        "qty": 2
+      },
+      {
+        "type": "cruiser",
+        "qty": 1
+      },
+      {
+        "type": "fighters",
+        "qty": 2
+      },
+      {
+        "type": "infantry",
+        "qty": 4
+      },
+      {
+        "type": "space dock",
+        "qty": 1
+      }
+    ],
+    "homeSystem": "Kenara System",
+    "population": 8820000000,
+    "government": "United Emirates",
+    "leadership": "Quieron",
+    "disposition": "Nomadic",
+    "tendencies": "Economic"
+  },
+  {
+  {
+    "name": "The Federation of Sol",
+    "shortName": "sol",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Ghosts of Creuss",
+    "shortName": "creuss",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The L1z1x Mindnet",
+    "shortName": "lizix",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Mentak Coalition",
+    "shortName": "mentak",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Naalu Colective",
+    "shortName": "naalu",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Nekro Virus",
+    "shortName": "nekro",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "Sardakk N'orr",
+    "shortName": "sardakknorr",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Universities of Jol-Nar",
+    "shortName": "jolnar",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Winnu",
+    "shortName": "winnu",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Xxcha Kingdom",
+    "shortName": "xxcha",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+  {
+    "name": "The Yin Brotherhood",
+    "shortName": "yin",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  },
+  {
+    "name": "The Yssaril Tribes",
+    "shortName": "yssaril",
+    "commodities": 0,
+    "abilities" : [
+      {
+        "name": "",
+        "text": ""
+      }
+    ],
+    "technologies" : [
+      {
+        "name": "",
+        "type": "",
+        "prereq": "",
+        "text": ""
+      }
+    ],
+    "promisaryNote": {
+        "name": "",
+        "text": ""
+    },
+    "flagship": {
+      "name": "",
+      "special": "",
+      "abilities": [
+        ""
+      ],
+      "cost": 0,
+      "combat": 0,
+      "move": 0,
+      "capacity": 0
+    },
+    "specialUnits": [
+      {
+        "name": "",
+        "type": "",
+        "abilities": [
+          ""
+        ],
+        "cost": 0,
+        "combat": 0,
+        "move": 0,
+        "capacity": 0
+      }
+    ],
+    "startingTech": [
+      ""
+    ],
+    "startingUnits": [
+      {
+        "type": "",
+        "qty": 0
+      }
+    ],
+    "homeSystem": "",
+    "population": "",
+    "government": "",
+    "leadership": "",
+    "disposition": "",
+    "tendencies": ""
+  }
+]
